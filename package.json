@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_demo",
+  "version": "1.0.0",
+  "description": "nodejs demo project",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon src/app.js --ext js,hbs,css",
+    "killnode": "taskkill /F /IM node.exe"
+  },
+  "author": "kk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.19"
+  }
+}
